@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Journal {
 
-    //TODO: allow user and program itself to access journal files by date or file name (refer to 17 File IO Writing lecture final).
+    //TODO: allow user and program itself to access journal files by date or file name
     //      Print out all journal entries requested by user using for each loop
 
     //PrintWriter
@@ -39,7 +39,7 @@ public class Journal {
         System.out.println();
         System.out.print("What is the title of your journal entry? >>> ");
         String journalFileName = Interaction.personInput.nextLine();
-        String journalFilePath = "C:/Users/ruppj/IdeaProjects/Wellness/Journal Entries/";
+        String journalFilePath = "";
         File newJournalFile = new File(journalFilePath + journalFileName);
 
         try {
